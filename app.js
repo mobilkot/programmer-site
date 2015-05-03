@@ -20,6 +20,22 @@ app.get('/api/articles', function(req, res) {
     res.send('This is not implemented now');
 });
 
+app.post('/api/articles', function(req, res) {
+    res.send('This is not implemented now');
+});
+
+app.get('/api/articles/:id', function(req, res) {
+    res.send('This is not implemented now');
+});
+
+app.put('/api/articles/:id', function (req, res){
+    res.send('This is not implemented now');    
+});
+
+app.delete('/api/articles/:id', function (req, res){
+    res.send('This is not implemented now');
+});
+
 var port = process.env.PORT || 5000;       
 app.listen(port)                           // Запускаем сервер на 5000 порту, если не указана переменная окружения "port" 
 console.log("Listening at " + port)        // Пишем в консоль, что запустились
